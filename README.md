@@ -96,11 +96,7 @@ PV перешел в состояние Failed, т.к. контроллер PV �
 
 После удаления PV, файл в директории `/data/pvc-first` останется на месте из-за особенностей работы контроллера PV с hostPath. В случае если в манифесте PV политика persistentVolumeReclaimPolicy будет установлена в Recycle, то файл будет удален.
 
-6. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/deployment.yaml
-
-   Ссылка на манифест PV - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pv.yaml
-
-   Ссылка на манифест PVC - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pvc.yaml
+6. Ссылка на манифест https://github.com/osipovtema/K8s5/tree/main/SRC
 
 ------
 
@@ -142,6 +138,4 @@ PV перешел в состояние Failed, т.к. контроллер PV �
 
 Это говорит о том, что NFS работает и из пода файл доступен для чтения и записи.
 
-4. Ссылка на манифест Deployment - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/deployment_nfs.yaml
-
-   Ссылка на манифест PVC - https://github.com/DemoniumBlack/fedorchukds-devops-33-42/blob/main/SRC/pvc_nfs.yaml
+4. Ссылка на манифест https://github.com/osipovtema/K8s5/tree/main/SRC
